@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Layout from './pages/owner/Layout';
 import ManageCars from './pages/owner/ManageCars';
 import ManageBookings from './pages/owner/ManageBookings';
-import AddCar from './pages/owner/Addcar';
+import AddCar from "./pages/owner/AddCar.jsx"; 
 import Dashboard from './pages/owner/Dashboard';
 import Login from './components/Login';
 import { Toaster } from 'react-hot-toast';
