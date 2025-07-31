@@ -36,7 +36,7 @@ const Navbar = () => {
         xl:px-32 py-4 text-gray-600 border-b border-borderColor relative transition-all
         ${location.pathname === "/" && "bg-light"}`}>
             <Link to='/'>
-                <motion.img whileHover={{scale: 1.05}} src={assets.logo} alt="logo" />
+                <motion.img whileHover={{scale: 1.05}} src={assets.logo1} className='h-7' alt="logo" />
             </Link>
 
             <div className={`max-sm:fixed max-sm:h-screen max-sm:w-full max-sm:top-16
